@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xamboree XIM</title>
+    
+    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/parallax.css">
+</head>
+
+<body>
+    
+    <header>
+        <img src="images/logo2.png" class="back" style="width:200px; height:85px">
+        <nav class="navigation">
+            <a href="/home.html">Home</a>
+            <a href="/Event.html">Events</a>
+            <a href="/about.html">About</a>
+            <a href="/Register.html">Booking</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+    <!-- <img src="/Images/xamboree.jpeg" alt="xamboree" style="width:100%; ; "> -->
+    <!-- <div class="video">
+    <video autoplay muted loop id="myVideo">
+        <source src="/Images/eat-cat.mp4" type="video/mp4">
+    </video>
+</div> -->
+<div class="wrapper_p">
+    <div class="parallax__group hero-container">
+      <div class="parallax__layer sky"></div>
+      <div class="parallax__layer bushes"></div>
+      <div class="parallax__layer water"></div>
+      <div class="parallax__layer people1"></div>
+      <div class="parallax__layer people2"></div>
+      <div class="parallax__layer people3"></div>
+      <div class="parallax__layer xam-text">
+        <div class="Xamboree_text">
+          <h1>XAMBOREE </h1>
+        </div>
+      </div>
+    </div>
+    <div class="parallax__group info-container">
+      <img src="/Images/xam.jpg" alt="concert" />
+      <div class="text-container">
+        <h2>This is your year.</h2>
+        <p>What would life be if we had no courage to attempt anything?</p>
+        <p>- Vincent Van Gogh</p>
+        <a href="#" class="btn">Get Started Now</a>
+      </div>
+    </div>
+  </div>
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+    
+        <div class="form-box login">
+            <h2>Login</h2><br><br>
+            <form method="post" action="login.php">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="text" name="email_phn" id="email_phn" required>
+                    <label>Email or Phone No</label>
+                </div><br>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="password" id="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="for.html">Forgot Password?</a>
+                </div>
+
+                <button type="submit" class="btn">Login</button>
+
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registration</h2><br><br>
+            <form method="post" action="register.php">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" name="name" required>
+                    <label>Username</label>
+                </div><br>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="call"></ion-icon>
+                    </span>
+                    <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" required>
+                    <label>Phone No.</label>
+                </div><br>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" name="email" required>
+                    <label>Email</label>
+                </div><br>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" name="password" required>
+                    <label>Password</label>
+                </div><br>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="home-content">
+        <!-- <h3>
+         ipsum dolor sit, amet consectetur adipisicing elit. Dolore quisquam voluptatem dolorem doloremque ducimus 
+        reiciendis deserunt suscipit sed soluta corporis? Vel, veniam ut nostrum enim quaerat ipsam rerum debitis Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, deserunt dicta amet perspiciatis sed adipisci sapiente debitis nobis atque nemo perferendis animi, 
+        consectetur consequuntur reprehenderit eius culpa illum distinctio accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        <br> Deleniti at quam dolores aspernatur tenetur ducimus minus. <br> Laboriosam, ullam, dolorum reprehenderit laudantium consectetur ex, repudiandae maiores similique quos optio exercitationem ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, excepturi.<br>
+         Exercitationem voluptate recusandae voluptatum dolor, accusantium, ut laborum mollitia optio cupiditate molestiae veniam architecto illum minima. Autem recusandae tenetur tempore.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis aut minus, possimus et Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque hic dicta enim laborum esse praesentium officia culpa, veritatis fugiat pariatur aliquid laboriosam quibusdam ullam, repellendus porro. Recusandae aliquid molestias quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet harum eaque soluta, nisi eligendi dolorem voluptatibus expedita nihil praesentium vel obcaecati iure nostrum neque ducimus itaque laudantium modi debitis deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ea ab quia dignissimos nihil cum alias, ipsum, corporis porro facilis repellendus quibusdam quam numquam facere assumenda aliquid aut amet dolore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet ipsam eveniet delectus? Dolore, unde pariatur ex reprehenderit commodi molestiae quisquam a impedit eligendi soluta rerum. Tenetur quod harum deleniti distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquam obcaecati ipsum exercitationem nemo et assumenda qui iure, eum, natus animi voluptate earum autem illo temporibus maxime cum minima ex! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem, nemo sunt, deserunt odit facere, dolorum esse aperiam unde perferendis animi eveniet. Temporibus consequuntur aperiam repudiandae ut quis, perspiciatis dignissimos. repudiandae quibusdam sed molestiae nesciunt velit fuga. Praesentium et possimus eveniet odit consectetur atque, dignissimos soluta quia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut illo, iure quasi et vero hic sapiente molestias vitae illum adipisci sequi nulla repellendus error commodi enim aspernatur autem similique quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, deserunt tempore architecto eius aliquid, vero eos autem recusandae soluta odio repudiandae esse saepe repellendus iure tempora facilis! Voluptas, vel voluptatem? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, error itaque consequuntur doloribus soluta impedit saepe nihil ad maiores maxime, sint similique quod repellat amet modi reprehenderit. Facilis, facere eum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil soluta, doloremque dicta, fugiat distinctio nemo, temporibus explicabo pariatur dolore nobis dolor harum accusantium itaque officia deserunt voluptas cupiditate dolorem! Temporibus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut ducimus id facere aspernatur iste quod dolor alias. Voluptate voluptatum soluta, inventore deserunt doloremque earum voluptates vero impedit debitis consequuntur! Magnam.
+    </h3> <br> -->
+    </div>
+    <div class="social-links">
+        <a href="https://www.instagram.com/xamboree_ximuniversity/" target="_blank">
+            <ion-icon color="pink" name="logo-instagram"></ion-icon>
+        </a><br>
+        <a href="https://www.facebook.com/Xamboree" target="_blank">
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a><br>
+        <a href="https://www.youtube.com/" target="_blank">
+            <ion-icon color="danger" name="logo-youtube"></ion-icon>
+        </a><br>
+        <a href="https://www.google.com/gmail" target="_blank">
+            <ion-icon color="danger" name="mail"></ion-icon>
+        </a><br>
+        <a href="https://twitter.com/Xub_Xamboree" target="_blank">
+        <ion-icon color="secondary" name="logo-twitter"></ion-icon>
+    </a><br>
+</div>
+    <!-- <footer>
+        <p>Contact us:<br> Tel: +91-7064091171<br> Email: xamboree@xim.edu.in</p>
+    </footer> -->
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+
+</body>
+
+</html>

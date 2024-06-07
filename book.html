@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Book Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" type="text/css" href="bookstyle.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="booking">
+                <h2>Booking Form</h2>
+                <div class="inputbox" id="fname">
+                    <input type="text" required="required">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <span>first name</span>
+                </div>
+                <div class="inputbox" id="lname">
+                    <input type="text" required="required">
+                    <i class="fa-regular fa-user"></i>
+                    <span>last name</span>
+                </div>
+                <div class="inputbox" id ="email">
+                    <input type="email" required="required">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>email address</span>
+                </div>
+                <div class="inputbox">
+                    <input type="tel" required="required">
+                    <i class="fa-solid fa-phone"></i>                    
+                    <span>Phone no</span>
+                </div>
+                <div class="inputbox">                   
+                    <i class="fa-solid fa-phone"></i>                    
+                    <span class="gender">Gender</span>
+                    <div class="gender-category">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="male" value="male" checked>
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                    </div>
+                </div>
+                <div class="inputbox">
+                    <input type="submit" value="Book now">
+                </div>
+            </div>
+            <div class=""></div>
+        </div>
+    </body> 
+</html>

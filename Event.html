@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Events</title>
+  <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" type="text/css" href="event.css">
+  <link rel="stylesheet" href="/home.css">
+  <script src="event.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="images/logo2.png" class="back" style="width:200px; height:85px">
+    <nav class="navigation">
+        <a href="/home.html">Home</a>
+        <a href="/Event.html">Events</a>
+        <a href="/about.html">About</a>
+        <a href="">Booking</a>
+        <button class="btnLogin-popup">Login</button>
+    </nav>
+  </header>
+  <div class="wrapper">
+    <span class="icon-close">
+        <ion-icon name="close"></ion-icon>
+    </span>
+
+    <div class="form-box login">
+        <h2>Login</h2><br><br>
+        <form method="post"  action="login.php">
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail"></ion-icon>
+                </span>
+                <input type="text" name="email_phn" required>
+                <label>Email or Phone No</label>
+            </div><br>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="password" name="password" required>
+                <label>Password</label>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="for.html">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="login-register">
+                <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="form-box register">
+        <h2>Registration</h2><br><br>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="person"></ion-icon>
+                </span>
+                <input type="text" required>
+                <label>Username</label>
+            </div><br>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="call"></ion-icon>
+                </span>
+                <input type="tel" id="phone" pattern="[0-9]{10}" required>
+                <label>Phone No.</label>
+            </div><br>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail"></ion-icon>
+                </span>
+                <input type="email" required>
+                <label>Email</label>
+            </div><br>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="password" required>
+                <label>Password</label>
+            </div><br>
+            <button type="submit" class="btn">Register</button>
+            <div class="login-register">
+                <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+  <img src="/Images/xamboree.jpeg" alt="xamboree" style="width:100%">
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img class = "image" src="/Images/qureka.png" alt="querka" style="width:100%">
+        <div class="container">
+          <h2>Qureka</h2>
+          <p class="title">Quiz Round</p>
+          <p>This will be an online quiz round! You will see the “Play” button here, once the round is live.</p>
+          <p>Date & Time of Event- 19th February 2023, 10 AM - 11 AM </p>
+          <p><button class="button" onclick="book()">Book</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img class = "image" src="/Images/battleitout.png" alt="querka" style="width:100%">
+        <div class="container">
+          <h2>Battle It Out (Street Cypher)</h2>
+          <p class="title">Cypher</p>
+          <p>
+            All the participants in the Cypher will be performing one after another. 16 performers will be selected for
+            the subsequent rounds.
+            Start Date
+            18 Feb 23, 10:00 AM IST
+            End Date
+            18 Feb 23, 01:00 PM IST.</p>
+          <p><button class="button" onclick="book()">Book</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img class = "image" src="/Images/spectrum.jpg" alt="querka" style="width:100%">
+        <div class="container">
+          <h2>Spectrum</h2>
+          <p class="title">PRESM (People Respecting Equality, Sexuality, and Mental Health)</p>
+          <p>This will be an poster making Competition</p>
+          <p>Registration Deadline
+            16 Feb 23, 11:59 PM IST
+            Event Date
+            18 Feb 23, 11:00 AM IST</p>
+          <p><button class="button" onclick="book()">Book</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img class = "image" src="/Images/bullseye.jpg" alt="querka" style="width:100%">
+        <div class="container">
+          <h2>Bullseye</h2>
+          <p class="title"> Stock market wizards! </p>
+          <P>opportunity to experience a Stock Market Simulation by putting yourself in the shoes of an investor</P>
+          <p>Registration Deadline
+            16 Feb 23, 04:30 PM IST</p>
+          <p><button class="button" onclick="book()">Book</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img class = "image" src="/Images/attirespectra.jpg" alt="querka" style="width:100%">
+        <div class="container">
+          <h2>Attire Spectra</h2>
+          <p class="title"> Traditional Ramp Walk </p>
+          <p> A traditional cum ethnic fashion wear event wherein the ramp provides the participants an opportunity to
+            display the rich cultural and heritage diversity of the country.</p>
+          <p>Registration Deadline
+            16 Feb 23, 04:30 PM IST</p>
+          <p><button class="button" onclick="book()">Book</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img class = "image" src="/Images/youthparliament.jpg" alt="querka" style="width:100%">
+        <div class="container">
+          <h2>XIM Youth Parliament</h2>
+          <p class="title">Mock Parliament </p>
+          <p>Youth Parliament is a platform offered to students where they are given a mock parliament set-up and
+            exposure to the parliament-type Debate.</p>
+          <p>Registration Deadline
+            16 Feb 23, 02:05 PM IST
+            XIM Youth Parliament
+            18 Feb 23, 09:00 AM IST</p>
+          <p><button class="button" onclick="book()">Book</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img class = "image" src="/Images/fifa.jpg" alt="querka" style="width:100%">
+        <div class="container">
+          <h2>FIFA '23</h2>
+          <p class="title"> Sportscom </p>
+          <P>XStec in association with Sportscom brings to you an event to showcase your talent and a chance to win
+            exciting cash rewards</P>
+          <p>egistration Deadline
+            15 Feb 23, 11:59 PM IST
+            Event Date
+            18 Feb 23, 10:00 AM IST</p>
+          <p><button class="button" onclick="book()">Book</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img class = "image" src="/Images/tamasha.jpg" alt="querka" style="width:100%">
+        <div class="container">
+          <h2>Tamasha</h2>
+          <p class="title"> Street Play Competition </p>
+          <P>Dissent doesn’t just thrive in violence; it thrives also in art forms to start mass movements.</P>
+          <p>Start Date
+            19 Feb 23, 11:30 AM IST
+            End Date
+            19 Feb 23, 02:00 PM IST</p>
+          <p><button class="button" onclick="book()">Book</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img class = "image" src="/Images/spar.jpg" alt="querka" style="width:100%">
+        <div class="container">
+          <h2>Spardha 2023</h2>
+          <p class="title"> A Social Entrepreneurship Competition </p>
+          <P>Spardha marks a paradigm shift from competition to collaboration - which RMAX believes is the way ahead.
+          </P>
+          <p>Registration Deadline
+            16 Feb 23, 04:30 PM IST</p>
+          <p><button class="button" onclick="book()">Book</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

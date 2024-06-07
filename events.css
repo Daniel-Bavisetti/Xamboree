@@ -1,0 +1,31 @@
+body {
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.event-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.event {
+  width: 30%;
+  margin-bottom: 20px;
+  border: 1px solid;
+  padding: 10px;
+}
+.event h3 {
+  margin-top: 0;
+}
+.event img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px ;
+}
+/* .bhusan {
+  background-image: url(/Session/Images/1003.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+} */
